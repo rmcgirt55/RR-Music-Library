@@ -1,11 +1,6 @@
-import React from 'react'
 import { useState } from 'react'
 
-interface SearchBarProps {
-    handleSearch: any;
-}
-
-const SearchBar = (props: SearchBarProps) => {
+function SearchBar(props){
     let [searchTerm, setSearchTerm] = useState('')
 
     return (
